@@ -1,0 +1,72 @@
+Started GET "/" for ::1 at 2022-01-04 01:48:06 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/royalfantash/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/royalfantash/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.2ms | Allocations: 518)
+Completed 200 OK in 11ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 4174)
+
+
+Started GET "/" for ::1 at 2022-01-04 01:48:34 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/royalfantash/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/royalfantash/.rvm/gems/ruby-3.0.0/gems/railties-6.1.4.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.9ms | Allocations: 219)
+Completed 200 OK in 6ms (Views: 4.7ms | Allocations: 945)
+
+
+Started GET "/" for ::1 at 2022-01-04 01:49:19 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#index as HTML
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1352)
+
+
+Started GET "/" for ::1 at 2022-01-04 01:53:02 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3384)
+
+
+  
+NameError (uninitialized constant ApplicationController::Httparty
+Did you mean?  HTTParty):
+  
+app/controllers/application_controller.rb:8:in `binance_data'
+app/controllers/application_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2022-01-04 01:53:19 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#index as HTML
+Completed 200 OK in 34277ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 99258)
+
+
+Started GET "/" for ::1 at 2022-01-04 01:53:56 -0500
+Processing by ApplicationController#index as HTML
+Completed 200 OK in 16238280ms (Views: 0.5ms | Allocations: 15503)
+
+
+Started GET "/" for ::1 at 2022-01-04 06:24:38 -0500
+Processing by ApplicationController#index as HTML
+Completed 200 OK in 389ms (Views: 0.6ms | Allocations: 7436)
+
+
+Started GET "/" for ::1 at 2022-01-04 06:24:57 -0500
+Processing by ApplicationController#index as HTML
+Completed 200 OK in 390ms (Views: 0.7ms | Allocations: 7467)
+
+
+Started GET "/" for 127.0.0.1 at 2022-01-04 20:34:48 -0500
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#index as HTML
+Completed 200 OK in 368ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 8971)
+
+
+Started GET "/" for 127.0.0.1 at 2022-01-04 20:38:54 -0500
+Processing by ApplicationController#index as HTML
+Completed 200 OK in 399ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 7410)
+
+
+Started GET "/" for 172.18.0.1 at 2022-01-05 10:09:22 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#index as HTML
+Completed 200 OK in 350ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 9379)
+
+
